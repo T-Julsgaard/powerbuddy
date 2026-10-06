@@ -1,0 +1,27 @@
+{
+  "checks": [
+    "393x852: revised Home, all tabs, fractional chart ticks, Settings, error/warning/success, locked scenario, keyboard unlock, no horizontal overflow",
+    "360x800: revised Home, all tabs, fractional chart ticks, Settings, error/warning/success, locked scenario, keyboard unlock, no horizontal overflow",
+    "430x932: revised Home, all tabs, fractional chart ticks, Settings, error/warning/success, locked scenario, keyboard unlock, no horizontal overflow",
+    "1280x1000: revised Home, all tabs, fractional chart ticks, Settings, error/warning/success, locked scenario, keyboard unlock, no horizontal overflow"
+  ],
+  "pointerSwipe": "Synthetic mouse pointer swipe at 393x852 passed; physical touch untested",
+  "errors": [],
+  "network": [],
+  "contrastRatios": {
+    "inkOnPorcelain": 14.27668848689112,
+    "mutedOnPorcelain": 5.768512771977855,
+    "greenOnSoft": 6.656503830778472,
+    "waterOnPorcelain": 5.176544900298342,
+    "whiteOnGreen": 7.948071595493406,
+    "amberOnSoft": 5.801743628496287,
+    "redOnError": 5.3374058380694045
+  },
+  "bytes": 140345,
+  "finishChecks": [
+    "Notification feedback stays in sheet/app flow and does not cover the success action",
+    "Animated closing can be interrupted by a new sheet without hiding or corrupting it",
+    "Device transitions preserve selected tab and internal scroll position",
+    "Opening Notification Centre from screen-off wakes into locked preview privacy"
+  ]
+}

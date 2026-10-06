@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "Notification feedback stays in sheet/app flow and does not cover the success action",
+    "Animated closing can be interrupted by a new sheet without hiding or corrupting it",
+    "Device transitions preserve selected tab and internal scroll position",
+    "Opening Notification Centre from screen-off wakes into locked preview privacy"
+  ],
+  "errors": [],
+  "networkRequests": [],
+  "bytes": 140345
+}

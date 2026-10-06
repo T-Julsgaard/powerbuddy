@@ -1,0 +1,10 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const root = __dirname;
+const icons = JSON.parse(fs.readFileSync(path.join(root,'src/icons.json'),'utf8'));
+const iconLicense = fs.readFileSync(path.join(root,'src/ICON-LICENSE.txt'),'utf8');
+let html = fs.readFileSync(path.join(root,'src/shell.html'),'utf8');
+html=html.replace('/* EMBED_CSS */',fs.readFileSync(path.join(root,'src/style.css'),'utf8')).replace('/* EMBED_ICONS */','/* Bundled Lucide icon licensing:\n'+iconLicense+'\n*/\nconst ICONS = '+JSON.stringify(icons)+';').replace('/* EMBED_DOMAIN */',fs.readFileSync(path.join(root,'src/domain.js'),'utf8')).replace('/* EMBED_APP */',fs.readFileSync(path.join(root,'src/app.js'),'utf8'));
+fs.mkdirSync(path.join(root,'outputs'),{recursive:true});
+fs.writeFileSync(path.join(root,'outputs/powerbuddy.html'),html);
+console.log('Built outputs/powerbuddy.html ('+Math.round(Buffer.byteLength(html)/1024)+' KB)');

@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-06",
+  "browser": "Installed Chrome via Playwright, headless",
+  "url": "file:///C:/Users/thoma/Desktop/SWE - Powerbuddy/outputs/powerbuddy.html",
+  "checks": [
+    "Direct file Home renders electricity + water and reference combined saving offline",
+    "All four tabs and selected state work",
+    "Choosing a shorter-shower habit completes without errors and remains visible in Plan",
+    "Resource switches, month/day/hour labels and keyboard chart inspection work",
+    "Reading validation, zero values, duplicate review and successful replacement work",
+    "Fictional sample bill is editable and restores reference values through normal input",
+    "Laundry price inspection, constraints, no-feasible recovery, reschedule and cancellation work",
+    "Minute constraints and saved energy remain coherent across settings changes",
+    "Self-reported loads complete challenge once under double-click, without changing readings",
+    "Reward insufficient-points, claim, redemption, duplicate-click guards and direct-file reload persistence work",
+    "Locked cheaper-window event deep-links to the exact shared plan and marks read",
+    "Hidden lock previews conceal detail; unlock routes to the exact reading estimate",
+    "Simulated home widget and screen-off reminder wake/deep-link/snooze work",
+    "Quiet-hours queue remains silent and releases on simulated morning; read state agrees",
+    "JSON download, invalid-import preservation and validated round-trip restoration work",
+    "Profile preserves readings; both onboarding personas, empty history and full reset work",
+    "393x852 has all tabs, reachable forms, no horizontal overflow and reduced-motion support",
+    "360x800 has all tabs, reachable forms, no horizontal overflow and reduced-motion support",
+    "430x932 has all tabs, reachable forms, no horizontal overflow and reduced-motion support",
+    "768x850 has all tabs, reachable forms, no horizontal overflow and reduced-motion support",
+    "1280x600 has all tabs, reachable forms, no horizontal overflow and reduced-motion support",
+    "Unavailable localStorage retains usable session and explains backup need",
+    "Unreadable saved data is preserved across ordinary session edits",
+    "No JavaScript errors or HTTP(S) requests in the checked offline contexts"
+  ],
+  "errors": [],
+  "networkRequests": []
+}
